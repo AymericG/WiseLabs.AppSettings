@@ -1,17 +1,10 @@
 # WiseLabs.AppSettings
-Enables ASP.NET Membership provider and ELMAH to read connection string from AppSettings
+Enables ELMAH SqlErrorLog to read connection string from AppSettings
 
 ## Installation
 
 Install the nuget package:
 > Install-Package WiseLabs.AppSettings
-
-
-Edit your Asp.net Membership provider configuration by changing the type attribute and adding a appSettingsKey
-> <add   
->   name="AspNetSqlMembershipProvider"   
->   type="WiseLabs.AppSettings.AppSettingsMembershipProvider"   
->   appSettingsKey="ConnectionStrings.Main"  
 
 If you have ELMAH installed with SQL logs enabled, change the definition like so:
 
