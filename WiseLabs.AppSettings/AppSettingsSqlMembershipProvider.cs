@@ -12,7 +12,7 @@ namespace WiseLabs.AppSettings
             base.Initialize(name, config);
             
             // Update the private connection string field in the base class.  
-            string connectionString = ConfigurationManager.AppSettings[config["appSettingsKey"]];
+            string connectionString = ConfigurationManager.AppSettings["ConnectionStrings.Main"];
 
             // Set private property of Membership provider.  
             FieldInfo connectionStringField = GetType().BaseType.GetField("_sqlConnectionString", BindingFlags.Instance | BindingFlags.NonPublic);

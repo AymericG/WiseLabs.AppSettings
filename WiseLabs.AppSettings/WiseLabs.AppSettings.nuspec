@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>WiseLabs.AppSettings</id>
-    <version>0.1</version>
+    <version>0.1.1</version>
     <title>WiseLabs.AppSettings</title>
     <authors>Aymeric Gaurat-Apelli</authors>
     <projectUrl>https://github.com/AymericG/WiseLabs.AppSettings</projectUrl>
