@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>WiseLabs.AppSettings</id>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
     <title>WiseLabs.AppSettings</title>
     <authors>Aymeric Gaurat-Apelli</authors>
     <projectUrl>https://github.com/AymericG/WiseLabs.AppSettings</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Enables ASP.NET Membership provider to read connection string from AppSettings</description>
+    <description>Enables ELMAH SqlErrorLog to read connection string from AppSettings</description>
     <releaseNotes>First package.</releaseNotes>
     <copyright>Copyright 2015</copyright>
-    <tags>elmah membership appsettings</tags>
+    <tags>elmah appsettings</tags>
   </metadata>
 </package>
